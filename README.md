@@ -13,26 +13,26 @@ Visual representation of product stock (bar chart) and customer sales (pie chart
 Add, edit, and delete products with a responsive product card layout.
 Stock alerts using color-coded badges for low stock items.
 
-Order Management:
+>Order Management:
 View all orders in a table format.
 Status indicators for Delivered, Pending, Shipped, and Cancelled orders.
 
-Customer Overview:
+>Customer Overview:
 Responsive customer cards displaying basic information (optional feature if implemented).
 
-User Authentication:
+>User Authentication:
 Simple login and registration system for administrators.
 Validation for existing users and proper credential verification.
 
-Responsive Design:
+>Responsive Design:
 Mobile-friendly navigation with collapsible navbar.
 Cards, forms, and charts adjust to various screen sizes.
 
-Interactive Charts:
+>Interactive Charts:
 Bar Chart: Displays product stock levels.
 Pie Chart: Displays sales contribution per customer.
 
-UI Enhancements:
+>UI Enhancements:
 Hover effects on buttons and cards.
 Floating labels on forms for better usability.
 Dark overlay with modern color scheme for visual appeal.
@@ -44,7 +44,7 @@ Navigate to index.html. Use the following default credentials:
 - Password: admin123
 You can also register a new account using the Register link below the login button. After successful login, you will be redirected to the Dashboard.
 
-3Frameworks / Libraries Used
+>3Frameworks / Libraries Used
 Bootstrap 5.3 – For responsive layout and UI components.
 Chart.js – For interactive bar and pie charts.
 Vanilla JavaScript – For dynamic content rendering, forms, and login logic.
