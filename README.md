@@ -44,8 +44,8 @@ Dark overlay with modern color scheme for visual appeal.
 - Password: admin123
 You can also register a new account using the Register link below the login button. After successful login, you will be redirected to the Dashboard.
 
-#3Frameworks / Libraries Used
->Bootstrap 5.3 – For responsive layout and UI components.
-Chart.js – For interactive bar and pie charts.
-Vanilla JavaScript – For dynamic content rendering, forms, and login logic.
-LocalStorage – For storing product data and simulating database operations.
+#Frameworks / Libraries Used
+> -Bootstrap 5.3 – For responsive layout and UI components.
+> -Chart.js – For interactive bar and pie charts.
+> -Vanilla JavaScript – For dynamic content rendering, forms, and login logic.
+> -LocalStorage – For storing product data and simulating database operations.
