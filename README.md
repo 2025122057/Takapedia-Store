@@ -2,14 +2,14 @@
 Takapedia Store – E-Commerce Web Application Interface Project.
 
 #Project Description
-Takapedia Store is a responsive and interactive e-commerce admin interface designed to manage products, orders, and customers efficiently. The application features a modern dashboard with real-time statistics, visual charts, and intuitive forms to add, edit, and delete data. It emphasizes a clean design, mobile responsiveness, and ease of navigation, providing a smooth user experience for administrators.
+>Takapedia Store is a responsive and interactive e-commerce admin interface designed to manage products, orders, and customers efficiently. The application features a modern dashboard with real-time statistics, visual charts, and intuitive forms to add, edit, and delete data. It emphasizes a clean design, mobile responsiveness, and ease of navigation, providing a smooth user experience for administrators.
 
 #Features
-Dashboard Overview:
+>Dashboard Overview:
 Total products, stock, and sales displayed with dynamic counters.
 Visual representation of product stock (bar chart) and customer sales (pie chart).
 
-Product Management:
+>Product Management:
 Add, edit, and delete products with a responsive product card layout.
 Stock alerts using color-coded badges for low stock items.
 
