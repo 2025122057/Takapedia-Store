@@ -25,13 +25,16 @@ Takapedia Store – E-Commerce Web Application Interface Project
 #Instructions to Test Login.
 > Navigate to index.html. Use the following default credentials:
 
-> #Username: admin
-> #Password: admin123
+#Username: admin
+#Password: admin123
 
 > You can also register a new account using the Register link below the login button. After successful login, you will be redirected to the Dashboard.
 
 #Frameworks / Libraries Used
 > Bootstrap 5.3 – For responsive layout and UI components.
+
 > Chart.js – For interactive bar and pie charts.
+
 > Vanilla JavaScript – For dynamic content rendering, forms, and login logic.
+
 > LocalStorage – For storing product data and simulating database operations.
