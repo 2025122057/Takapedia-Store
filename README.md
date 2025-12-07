@@ -37,7 +37,9 @@ Takapedia Store – E-Commerce Web Application Interface Project
 
 >Then enter the information that required.
 
-#for upload picture, you have to save the picture in (product).jpeg file and than save it into the assets/images folder for the picture to be display.
+#For upload picture, you have to save the picture in (product).jpeg file and than save it into the assets/images folder for the picture to be display.
+
+>For testing, I have already put the sock.jpeg images in the assets/images folder. You can try to upload it in the Product Image (filename).
 
 #Frameworks / Libraries Used
 > Bootstrap 5.3 – For responsive layout and UI components.
