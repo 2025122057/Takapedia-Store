@@ -26,6 +26,7 @@ Takapedia Store – E-Commerce Web Application Interface Project
 > Navigate to index.html. Use the following default credentials:
 
 #Username: admin
+
 #Password: admin123
 
 > You can also register a new account using the Register link below the login button. After successful login, you will be redirected to the Dashboard.
