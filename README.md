@@ -31,6 +31,14 @@ Takapedia Store – E-Commerce Web Application Interface Project
 
 > You can also register a new account using the Register link below the login button. After successful login, you will be redirected to the Dashboard.
 
+#Instructions to Add Prouduct/Upload Picture in Products Page.
+
+>You can use add product features below the display products.
+
+>Then enter the information that required.
+
+#for upload picture, you have to save the picture in (product).jpeg file and than save it into the assets/images folder for the picture to be display.
+
 #Frameworks / Libraries Used
 > Bootstrap 5.3 – For responsive layout and UI components.
 
