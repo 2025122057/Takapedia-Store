@@ -44,6 +44,6 @@ Takapedia Store – E-Commerce Web Application Interface Project
 
 > Chart.js – For interactive bar and pie charts.
 
-> Vanilla JavaScript – For dynamic content rendering, forms, and login logic.
+> JavaScript – For dynamic content rendering, forms, and login logic.
 
 > LocalStorage – For storing product data and simulating database operations.
