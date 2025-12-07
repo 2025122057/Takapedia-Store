@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="container my-4">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom shadow-sm mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+            <img src="assets/images/logo.png" alt="Logo" width="40" height="40" class="me-2">
+            <span class="text-white fw-bold">Takapedia Store</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link text-white" href="dashboard.html">Dashboard</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link text-white active" href="orders.html">Orders</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="customers.html">Customers</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h2 class="mb-4 white-title">Orders</h2>
+
+<!-- Responsive Orders Table -->
+<div class="table-responsive">
+    <table class="table table-striped table-bordered align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Order ID</th>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Qty</th>
+                <th>Total (RM)</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="orderTable"></tbody>
+    </table>
+</div>
+
+<footer class="text-center mt-4">&copy; 2025 Takapedia Store | All Right Reserved</footer>
+
+<script>
+const orders = [
+    {id:1, customer:"Iman", product:"Shoes", qty:1, total:120, status:"Delivered"},
+    {id:2, customer:"Zarul", product:"Watch", qty:1, total:90, status:"Pending"},
+    {id:3, customer:"Rusyaidi", product:"Sunglasses", qty:2, total:140, status:"Shipped"},
+    {id:4, customer:"Dharif", product:"Bag", qty:1, total:85, status:"Cancelled"},
+    {id:5, customer:"Afiq", product:"T-shirt", qty:3, total:75, status:"Delivered"}
+];
+
+const tbody = document.getElementById('orderTable');
+
+orders.forEach(o => {
+    // Assign badge classes based on status
+    let statusClass;
+    switch(o.status.toLowerCase()){
+        case 'delivered': statusClass='bg-success'; break;
+        case 'pending': statusClass='bg-warning text-dark'; break;
+        case 'shipped': statusClass='bg-primary'; break;
+        case 'cancelled': statusClass='bg-danger'; break;
+        default: statusClass='bg-secondary'; break;
+    }
+
+    tbody.innerHTML += `
+    <tr>
+        <td>${o.id}</td>
+        <td>${o.customer}</td>
+        <td>${o.product}</td>
+        <td>${o.qty}</td>
+        <td>${o.total}</td>
+        <td><span class="badge ${statusClass}">${o.status}</span></td>
+    </tr>`;
+});
+</script>
+
+<!-- Include Bootstrap JS bundle for mobile navbar toggle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
+</html>
